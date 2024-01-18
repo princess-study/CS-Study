@@ -1,3 +1,4 @@
+![Princess Header](https://capsule-render.vercel.app/api?type=egg&color=pink&height=100&section=header&text=Princess&fontSize=100)
 # 신입 개발자 면접 대비 CS 스터디 👨🏻‍💻👩🏻‍💻 🔥
 <p align="center">
   <img src="https://github.com/princess-study/CS-Study/assets/133184988/3be5898d-05eb-4920-b5da-4f9da2b81fcb" alt="CS Study" />
@@ -35,3 +36,5 @@ CS 스터디 시작 (2024.01.22 ~ ) | 자세한 내용은 👉🏻 [Wiki]( )에�
 | [![Sujin](https://avatars.githubusercontent.com/u/138956130?v=2&s=100)](https://github.com/Knagsoojin) | [![Geonwoo](https://avatars.githubusercontent.com/u/133184988?v=2&s=100)](https://github.com/pigpgw) | [![ChoiYeoJin](https://avatars.githubusercontent.com/u/17807025?v=2&s=100)](https://github.com/ChoiYeoJin) |
 |:---:|:---:|:---:|
 | 수진 | 건우 | 여진 |
+
+![Footer Image](https://capsule-render.vercel.app/api?type=shape&color=ff69b4&height=100&section=footer&text=YourText&fontSize=30)
