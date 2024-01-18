@@ -31,6 +31,6 @@ CS 스터디 시작 (2024.01.22 ~ ) | 자세한 내용은 👉🏻 [Wiki]( )에�
 
 ## 👨🏻‍💻👩🏻‍💻 멤버 소개
 
-| [![Sujin](https://avatars.githubusercontent.com/u/138956130?v=4&s=200)](https://github.com/Knagsoojin) | [![Geonwoo](https://avatars.githubusercontent.com/u/133184988?v=4&s=200)](https://github.com/pigpgw) | [![ChoiYeoJin](https://avatars.githubusercontent.com/u/17807025?v=4&s=200)](https://github.com/ChoiYeoJin) |
+| [![Sujin](https://avatars.githubusercontent.com/u/138956130?v=4&s=100)](https://github.com/Knagsoojin) | [![Geonwoo](https://avatars.githubusercontent.com/u/133184988?v=4&s=200)](https://github.com/pigpgw) | [![ChoiYeoJin](https://avatars.githubusercontent.com/u/17807025?v=4&s=200)](https://github.com/ChoiYeoJin) |
 |:---:|:---:|:---:|
 | 수진 | 건우 | 여진 |
