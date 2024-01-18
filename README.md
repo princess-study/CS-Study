@@ -1,5 +1,6 @@
-<img src="https://img.shields.io/badge/JS-F7DF1E?style=flat&logo=JS&logoColor=white"/>
-<img src="https://img.shields.io/badge/github-181717?style=flat&logo=R&logoColor=white"/>
+![JavaScript](https://img.shields.io/badge/JS-F7DF1E?style=flat&logo=javascript&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-181717?style=flat&logo=github&logoColor=white)
+
 
 # 신입 개발자 면접 대비 CS 스터디 👨🏻‍💻👩🏻‍💻 🔥
 <p align="center">
