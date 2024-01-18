@@ -31,8 +31,11 @@ CS 스터디 시작 (2024.01.22 ~ ) | 자세한 내용은 👉🏻 [Wiki]( )에�
 * **나만의 강점을 잘 전달**할 수 있는 연습을 한다.
 
 ## Contents
+- [JavaScript](./JavaScript/READEME.md)
 
 ## Expected question
+- [JavaScript](./Interview/JavaScript_expected_question.md)
+
 
 ## 👨🏻‍💻👩🏻‍💻 멤버 소개
 
