@@ -32,6 +32,7 @@ CS 스터디 시작 (2024.01.22 ~ ) | 자세한 내용은 👉🏻 [Wiki]( )에�
 
 ## Contents
 
+
 ## Expected question
 
 ## 👨🏻‍💻👩🏻‍💻 멤버 소개
@@ -39,5 +40,3 @@ CS 스터디 시작 (2024.01.22 ~ ) | 자세한 내용은 👉🏻 [Wiki]( )에�
 | [![Sujin](https://avatars.githubusercontent.com/u/138956130?v=2&s=100)](https://github.com/Knagsoojin) | [![Geonwoo](https://avatars.githubusercontent.com/u/133184988?v=2&s=100)](https://github.com/pigpgw) | [![ChoiYeoJin](https://avatars.githubusercontent.com/u/17807025?v=2&s=100)](https://github.com/ChoiYeoJin) |
 |:---:|:---:|:---:|
 | 수진 | 건우 | 여진 |
-
-![Footer Image](https://capsule-render.vercel.app/api?type=shape&color=ff69b4&height=100&section=footer&text=YourText&fontSize=30)
