@@ -1,6 +1,7 @@
 # 신입 개발자 면접 대비 CS 스터디 👨🏻‍💻👩🏻‍💻 🔥
-![art_15874681414251_b440af](https://github.com/princess-study/CS-Study/assets/133184988/3be5898d-05eb-4920-b5da-4f9da2b81fcb)
-
+<p align="center">
+  <img src="https://github.com/princess-study/CS-Study/assets/133184988/3be5898d-05eb-4920-b5da-4f9da2b81fcb" alt="CS Study" />
+</p>
 
 CS 스터디 시작 (2024.01.22 ~ ) | 자세한 내용은 👉🏻 [Wiki]( )에서 확인해 주세요.
 
