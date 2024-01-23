@@ -23,12 +23,10 @@
 * 📌 04장 변수
 * 📌 05장 [표현식과 문](./JS//5.Expressions%26Statements/Expressions%26Statements.md)
 * 📌 06장 [데이터 타입](./JS//6.DataType/DataType.md)
-* 📌 07장 연산자
-* 📌 08장 제어문
-* 📌 09장 타입 변환과 단축 평가
-* 📌 10장 객체 리터럴
-* 📌 11장 원시 값과 객체의 비교
-* 📌 12장 함수
+* 📌 09장 [타입 변환과 단축 평가](./JS/9.%EB%B3%80%ED%99%98%EA%B3%BC%20%EB%8B%A8%EC%B6%95%20%ED%8F%89%EA%B0%80//TypeConversions%26ShortCircuitEvaluation.md)
+* 📌 10장 [객체 리터럴](./JS/10.%EA%B0%9D%EC%B2%B4%20%EB%A6%AC%ED%84%B0%EB%9F%B4/ObjectLiteral)
+* 📌 11장 [원시 값과 객체의 비교](./JS/11.%20%EC%9B%90%EC%8B%9C%EA%B0%92%EA%B3%BC%20%EA%B0%9D%EC%B2%B4%20%EB%B9%84%EA%B5%90/%EB%B3%B8%EB%AC%B8.md)
+* 📌 12장 [함수](./JS/12.Function/Function.md)
 * 📌 13장 스코프
 * 📌 14장 전역 변수의 문제점
 * 📌 15장 let, const 키워드와 블록 레벨 스코프
