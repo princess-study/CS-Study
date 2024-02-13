@@ -39,6 +39,6 @@ CS 스터디 시작 (2024.01.22 ~ ) | 자세한 내용은 👉🏻 [요기](./RE
 
 ## 👨🏻‍💻👩🏻‍💻 멤버 소개
 
-| [![soyo](https://avatars.githubusercontent.com/u/92621272?v=4)](https://github.com/soyo9000) | [![Geonwoo](https://avatars.githubusercontent.com/u/133184988?v=2&s=100)](https://github.com/pigpgw) | [![ChoiYeoJin](https://avatars.githubusercontent.com/u/17807025?v=2&s=100)](https://github.com/ChoiYeoJin) | | [![JIEUN](https://avatars.githubusercontent.com/u/108172664?v=4)](https://github.com/jieuning) |
+| [![soyo](https://avatars.githubusercontent.com/u/133184988?v=2&s=100)](https://github.com/soyo9000) | [![Geonwoo](https://avatars.githubusercontent.com/u/133184988?v=2&s=100)](https://github.com/pigpgw) | [![ChoiYeoJin](https://avatars.githubusercontent.com/u/17807025?v=2&s=100)](https://github.com/ChoiYeoJin) | [![JIEUN](https://avatars.githubusercontent.com/u/108172664?v=2&s=100)](https://github.com/jieuning) |
 |:---:|:---:|:---:|:---:|
-| 지은 | 건우 | 여진 | 소영 |
+| 소영 | 건우 | 여진 | 지은 |
