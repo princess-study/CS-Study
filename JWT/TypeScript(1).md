@@ -263,7 +263,7 @@ any 사용할바엔 javascript쓰시는게 낫습니다.
 
 [https://velog.io/@chhw130/enum-타입을-지양해야하는-이유](https://velog.io/@chhw130/enum-%ED%83%80%EC%9E%85%EC%9D%84-%EC%A7%80%EC%96%91%ED%95%B4%EC%95%BC%ED%95%98%EB%8A%94-%EC%9D%B4%EC%9C%A0)
 
-⇒ TS는 구조적 타이핑을 사용하는데 다른 타입과는 달리 enum의 경우는 명목적 타이핑을 사용합니다. 따라서, enum Something1 { A = 'A' }, enum Something2 { A = 'A' }에서 Something1.A === Something2.A 값은 실제로 같은 문자열임에도 불구하고 false입다.[https://careerly.co.kr/qnas/1392](https://careerly.co.kr/qnas/1392)
+⇒ TS는 구조적 타이핑을 사용하는데 다른 타입과는 달리 enum의 경우는 명목적 타이핑을 사용합니다. 따라서, enum Something1 { A = 'A' }, enum Something2 { A = 'A' }에서 Something1.A === Something2.A 값은 실제로 같은 문자열임에도 불구하고 false입니다. [https://careerly.co.kr/qnas/1392](https://careerly.co.kr/qnas/1392)
 
 ⇒ 기존의 type설정에서 typescript는 컴파일 과정에서 제거되는 것과는 달리 enum타입은 추가적인 코드를 발생시킵니다.
 
