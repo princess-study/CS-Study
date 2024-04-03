@@ -6,7 +6,7 @@
 - 소프트웨어의 비즈니스 로직과 화면을 구분하는데 중점을 두고 있으며, 이러한 관심사 분리 는 더나은 업무의 분리와 향상된 관리를 제공한다.
 
 ## Model, View, Controller의 관계
-![mvc패턴](https://github.com/princess-study/CS-Study/assets/108172664/b80c2715-0687-485d-90f1-8a49cd67fd75)
+[![mvc패턴](https://github.com/princess-study/CS-Study/assets/108172664/b80c2715-0687-485d-90f1-8a49cd67fd75)](https://private-user-images.githubusercontent.com/108172664/319334227-b80c2715-0687-485d-90f1-8a49cd67fd75.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTIxNzY5MzAsIm5iZiI6MTcxMjE3NjYzMCwicGF0aCI6Ii8xMDgxNzI2NjQvMzE5MzM0MjI3LWI4MGMyNzE1LTA2ODctNDg1ZC05MGYxLThhNDljZDY3ZmQ3NS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQwM1QyMDM3MTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jYjBkMjlmNDdiOTM1ZjFlYWZkZDVjNTRiNDI2MzNiNjc2ZTVhNDljYzEyMjM1ZTBhMWYyN2I3NDY3ODJhOTJmJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.P_htqtSsFhy6GLcE0X_30rMXHkO0Y2P4nivdqEWxT7U)
 
 1. 사용자의 Request(요청)를 Controller가 받는다.
 2. Controller는 Service에서 비즈니스 로직을 처리한 후 결과를 Model에 담는다.
@@ -77,7 +77,7 @@ Model과 View는 각각의 역할에 충실하지만 Controller는 Model과 View
 - MVC 패턴에서 컨트롤러의 역할이 과도하게 커지고 복잡해지는 상황을 지칭한다. 
 - 이는 주로 대규모 애플리케이션에서 발생할 수 있으며, 코드의 비대화, 재사용성 및 확장성 저하, 유지보수성 하락 및 테스트 용이성 저하 등의 문제를 야기할 수 있다.
 
-![Massive-View-Controller](https://github.com/princess-study/CS-Study/assets/108172664/2348991c-0adb-4369-b97e-f38e73060fdf)
+[![Massive-View-Controller](https://github.com/princess-study/CS-Study/assets/108172664/2348991c-0adb-4369-b97e-f38e73060fdf)](https://private-user-images.githubusercontent.com/108172664/319337879-2348991c-0adb-4369-b97e-f38e73060fdf.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTIxNzY5MzAsIm5iZiI6MTcxMjE3NjYzMCwicGF0aCI6Ii8xMDgxNzI2NjQvMzE5MzM3ODc5LTIzNDg5OTFjLTBhZGItNDM2OS1iOTdlLWYzOGU3MzA2MGZkZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQwM1QyMDM3MTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jNGY2Y2E1MTUzNTJkZTExYTFjZTUwYTA5Y2Q0NWY0NWQzYmQ5ZGNlZmQwYzI1MWUyNzVlYjRhNTFiNzEwNWY3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.HNtNvkBmD7-7trj7Diq-NaFvPLrMvUIlW9EI6gjDTDs)
 
 
 ## MVC 패턴의 문제를 해결하기 위한 대안
@@ -105,7 +105,7 @@ Model과 View는 각각의 역할에 충실하지만 Controller는 Model과 View
 ### 단점
 - MVVM 패턴은 MVC 패턴에서 발생하는 View와 Model의 의존성 문제를 해결할 수 있었지만 ViewModel을 설계하는 과정이 복잡하고 어렵다는 단점 또한 존재한다.
 
-![mvvm패턴](https://github.com/princess-study/CS-Study/assets/108172664/337f8a68-58e4-4db0-9857-6299dfb8e10c)
+[![mvvm패턴](https://github.com/princess-study/CS-Study/assets/108172664/337f8a68-58e4-4db0-9857-6299dfb8e10c)](https://private-user-images.githubusercontent.com/108172664/319339412-337f8a68-58e4-4db0-9857-6299dfb8e10c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTIxNzY5MzAsIm5iZiI6MTcxMjE3NjYzMCwicGF0aCI6Ii8xMDgxNzI2NjQvMzE5MzM5NDEyLTMzN2Y4YTY4LTU4ZTQtNGRiMC05ODU3LTYyOTlkZmI4ZTEwYy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQwM1QyMDM3MTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1lNTQ5YTc2ZTVlOWU0ODdkMmU1NzZmMjEwNTJlMDM4MWQ3MzdlNDYzYzliMDY5ZmRkZmQxZGVmMjJlZGI0NzBjJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.YpONeAr5aH9FnAJKxUjs9maadOq3XTw2foCGczem2kM)
 
 순서
 1. 사용자의 요청은 View를 통해 받게 된다.
@@ -127,7 +127,7 @@ Model과 View는 각각의 역할에 충실하지만 Controller는 Model과 View
 ### 단점
 - MVP 패턴은 View와 Presenter 사이의 의존성이 높아지게 된다는 단점이 있다.
 
-![mvp패턴](https://github.com/princess-study/CS-Study/assets/108172664/5e21d4f4-744a-4298-a881-e1cb9f39e29a)
+[![mvp패턴](https://github.com/princess-study/CS-Study/assets/108172664/5e21d4f4-744a-4298-a881-e1cb9f39e29a)](https://private-user-images.githubusercontent.com/108172664/319339800-5e21d4f4-744a-4298-a881-e1cb9f39e29a.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTIxNzY5MzAsIm5iZiI6MTcxMjE3NjYzMCwicGF0aCI6Ii8xMDgxNzI2NjQvMzE5MzM5ODAwLTVlMjFkNGY0LTc0NGEtNDI5OC1hODgxLWUxY2I5ZjM5ZTI5YS5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQwM1QyMDM3MTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05ZjllMDE1MTUxNjliZWFmM2RmMzU4YjQ5ZDc4NWRiYmJhNjdhNjQzMjdkYWU3OTNkZDM5ZTVkMzZkZTQ0MzEyJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.62EUw-juUnWVjbU0fPQ8l5Ti2MDnSUzpfVssDuL0Y5s)
 
 ### 순서
 
@@ -156,7 +156,7 @@ Model과 View는 각각의 역할에 충실하지만 Controller는 Model과 View
 - Flux 패턴은 단방향 데이터 흐름으로 인해 코드량이 많아지고, 복잡도가 증가할 수 있다. 또한, 한 개 이상의 store 를 사용할 때, store 간의 의존성이 발생할 수 있으며 이를 해결하기 위해서는 추가적인 로직이 필요하다.
   - 이를 위해, Redux에서는 reducer 함수를 사용하여 상태를 변경하는 로직을 구현하고, React에서는 useReducer를 사용하여 Flux 패턴을 쉽게 활용할 수 있도록 일부분 보완하였다.
 
-![flux패턴](https://github.com/princess-study/CS-Study/assets/108172664/39b54d8c-e2c9-4ad1-8642-6194b115d8e3)
+[![flux패턴](https://github.com/princess-study/CS-Study/assets/108172664/39b54d8c-e2c9-4ad1-8642-6194b115d8e3)](https://private-user-images.githubusercontent.com/108172664/319341828-39b54d8c-e2c9-4ad1-8642-6194b115d8e3.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTIxNzY5MzAsIm5iZiI6MTcxMjE3NjYzMCwicGF0aCI6Ii8xMDgxNzI2NjQvMzE5MzQxODI4LTM5YjU0ZDhjLWUyYzktNGFkMS04NjQyLTYxOTRiMTE1ZDhlMy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNDAzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDQwM1QyMDM3MTBaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1jZGY1NDc0ZTQ4OWUxMTI1ZTFlYTQ2Y2E4NjZmZmI4NGEwN2RiNGVhMGE3MDk5MTIwMWU2MWU5NGJmM2U1OGNhJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.v-XS0czww1JOvzE7MuvtwlKJREhhMxh272Wv5xRlme0)
 
 ### Action
 Action이란 데이터를 변경하는 행위로서 Dispatcher에게 전달되는 객체를 말합니다. Action creator 메서드는 새로 발생한 Action의 타입(type)과 새로운 데이터(payload)를 묶어 Dispatcher에게 전달합니다.
