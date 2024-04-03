@@ -232,7 +232,7 @@ fetch('http://localhost:8000/credentialed-request', {
 
 ```
 
-## 참고 사이트
+## 참고 자료
 
 [https://velog.io/@jh100m1/CORS-에러가-뭔데-어떻게-해결하는건데](https://velog.io/@jh100m1/CORS-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%AD%94%EB%8D%B0-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EA%B2%B0%ED%95%98%EB%8A%94%EA%B1%B4%EB%8D%B0) ⇒ 기반
 
