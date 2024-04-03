@@ -235,9 +235,13 @@ fetch('http://localhost:8000/credentialed-request', {
 ## 참고 사이트
 
 [https://velog.io/@jh100m1/CORS-에러가-뭔데-어떻게-해결하는건데](https://velog.io/@jh100m1/CORS-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%AD%94%EB%8D%B0-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EA%B2%B0%ED%95%98%EB%8A%94%EA%B1%B4%EB%8D%B0) ⇒ 기반
+
 [https://www.youtube.com/watch?v=bW31xiNB8Nc](https://www.youtube.com/watch?v=bW31xiNB8Nc) 
+
 [https://www.youtube.com/watch?v=-2TgkKYmJt4&t=1166s](https://www.youtube.com/watch?v=-2TgkKYmJt4&t=1166s)
 
 [교차 출처 리소스 공유 (CORS) - HTTP | MDN (mozilla.org)](https://developer.mozilla.org/ko/docs/Web/HTTP/CORS)
+
 [https://inpa.tistory.com/entry/NODE-📚-CORS-설정하기-cors-모듈](https://inpa.tistory.com/entry/NODE-%F0%9F%93%9A-CORS-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0-cors-%EB%AA%A8%EB%93%88)
+
 [https://inpa.tistory.com/entry/WEB-📚-CORS-💯-정리-해결-방법-👏](https://inpa.tistory.com/entry/WEB-%F0%9F%93%9A-CORS-%F0%9F%92%AF-%EC%A0%95%EB%A6%AC-%ED%95%B4%EA%B2%B0-%EB%B0%A9%EB%B2%95-%F0%9F%91%8F) [Inpa Dev 👨‍💻:티스토리]
