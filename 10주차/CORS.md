@@ -2,16 +2,17 @@
 
 ## CORS란?
 
-**Cross-Origin Resource Sharing**. 한국어로는 교차-출처 리소스 공유라고 한다.
+**Cross-Origin Resource Sharing**. 교차-출처 리소스 공유.
 
 교차 출처 = 다른 출처 
 
-**출처:** 보내고 받는 각각의 위치=웹사이트, api주소
+**출처:** origin = protocol+host+port, 보내고 받는 각각의 위치=웹사이트, api주소
+
 **리소스:** 주고받아지는 데이터
 
 ## SOP
 
-**Same Origin Policy. 동일 출처 정책.** 동일한 출처**,** 같은 출처에서만 리소스를 공유할 수 있다는 정책
+**Same Origin Policy**. 동일 출처 정책. 같은 출처에서만 리소스를 공유할 수 있다는 정책
 
 서로 다른 출처끼리 요청을 주고 받는건 원래 안되는게 기본값. 
 
@@ -23,23 +24,25 @@ CORS는 SOP의 반대 개념. 다른 출처간에 리소스를 공유할 수 있
 
 **CORS정책을 준수하지 않는 경우, 다른 출처의 리소스를 사용할 수 없다.**
 
-### 다른 출처간 리소스 공유에 제한이 없을 경우 예
+### 다른 출처간 리소스 공유에 제한이 없을 경우, 문제점 예시
 
 1. 이메일에 포함된 링크나 설득력 있는 게시물을 통해 사용자를 악성 웹사이트로 유도.
 2. 사용자의 브라우저는 이 악성 사이트의 HTML, CSS, JavaScript 코드를 받아 실행.
 3. 악성 사이트의 스크립트는 사용자 브라우저에 저장된 인증 토큰을 사용해 사이트 A로부터 개인 정보를 조회하는 요청을 보냄. 
-4. 사이트 A로부터 받은 개인 정보를 악성사이트의 서버로 전송해 탈취 가능. 
+4. 사이트 A로부터 받은 개인 정보를 악성사이트의 서버로 전송해 탈취. 
 
 ### 같은 출처 vs 다른 출처
+URL 구조:
 ![Untitled](https://github.com/princess-study/CS-Study/assets/92621272/84810e2c-ac62-41e2-9080-f9a05138dd7f)
 
 [https://velog.io/@jh100m1/CORS-에러가-뭔데-어떻게-해결하는건데](https://velog.io/@jh100m1/CORS-%EC%97%90%EB%9F%AC%EA%B0%80-%EB%AD%94%EB%8D%B0-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%95%B4%EA%B2%B0%ED%95%98%EB%8A%94%EA%B1%B4%EB%8D%B0)
 
  (프로토콜의 기본 포트를 사용할때 포트 번호 생략이 가능: https:443 )
 
+
 **동일한 출처(origin)= 동일한 Protocol+Host+Port** 셋 다 같아야 같은 출처로 간주하며, 하나라도 다르면 다른 출처이다. 나머지는 상관없다.
 
-브라우저 콘솔창에 console.log(location.origin)을 치면 현재 사이트의 출처를 알 수 있다.
+ - 브라우저 콘솔창에 console.log(location.origin)을 치면 현재 사이트의 출처를 알 수 있다.
 
 예) 웹페이지 주소 : [https://brie.github.io](https://brie.github.io/)
 
@@ -64,14 +67,14 @@ CORS는 SOP의 반대 개념. 다른 출처간에 리소스를 공유할 수 있
 
 ## CORS기본 동작 원리
 
-1. **HTTP 요청과 Origin 헤더**: 웹 페이지에서 다른 출처로 리소스를 요청하려고 할 때, 기본적으로 브라우저는 HTTP 프로토콜을 사용하여 요청을 보낸다. 이때, 브라우저는 **`Origin`** 헤더를 이용해 요청을 보내는 출처를 서버에 알린다. 
+1. **HTTP 요청과 Origin 헤더**: 웹 페이지에서 다른 출처로 리소스를 요청하려고 할 때, 기본적으로 브라우저는 HTTP 프로토콜을 사용하여 요청을 보낸다. 이때, 브라우저는 `Origin` 헤더를 이용해 요청을 보내는 출처를 서버에 알린다. 
 
 ```jsx
-**Origin: http://jyejyes.github.io**
+Origin: http://jyejyes.github.io
 ```
 
-1. **서버의 응답과 Access-Control-Allow-Origin 헤더**: 서버가 요청을 받고 나서 응답을 보낼 때, **`Access-Control-Allow-Origin`**이라는 응답 헤더를 사용하여 이 리소스에 접근이 허용된 출처를 명시. 
-2. **브라우저의 유효성 판별**: 응답을 받은 브라우저는 자신이 보낸 **`Origin`**과 서버가 응답으로 보낸 **`Access-Control-Allow-Origin`**을 비교. 이 두 값이 일치할(또는 `*`) 경우 유효하게 처리. 불일치시CORS 정책에 의해 리소스 사용이 거부되며, CORS 오류가 발생.
+1. **서버의 응답과 Access-Control-Allow-Origin 헤더**: 서버가 요청을 받고 나서 응답을 보낼 때, `Access-Control-Allow-Origin`이라는 응답 헤더를 사용하여 이 리소스에 접근이 허용된 출처를 명시. 
+2. **브라우저의 유효성 판별**: 응답을 받은 브라우저는 자신이 보낸 `Origin`과 서버가 응답으로 보낸 `Access-Control-Allow-Origin`을 비교. 이 두 값이 일치할(또는 `*`) 경우 유효하게 처리. 불일치시CORS 정책에 의해 리소스 사용이 거부되며, CORS 오류가 발생.
 
 ## 종류
 
@@ -150,7 +153,7 @@ CORS는 SOP의 반대 개념. 다른 출처간에 리소스를 공유할 수 있
         app.use(cors({ origin: 'https://your-frontend-domain.com' }));
         ```
         
-    - 와일드카드 `*`는 보안문제 야기하므로 특정 주소로 명시해주는 것이 좋음(credentialed 아닌경우에도.
+    - 와일드카드 `*`는 보안 문제를 야기하므로 특정 주소로 명시해주는 것이 좋음(꼭 credentialed 아닌경우에도).
 - 프론트엔드: (위 못할경우?) proxy 서버 사용하기.
     - 프록시 서버는 클라이언트와 목적지 서버 사이에서 중개자 역할
     - 서버에서 서버로 요청을 보낼 경우에는 CORS에러가 나지 않는다는 점을 이용하여 우회하는것
