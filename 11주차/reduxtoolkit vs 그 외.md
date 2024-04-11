@@ -60,7 +60,7 @@
 - 현재로선 redux toolkit과 zustand가 압도적 인기
 - 뭘 사용해야 한다기 보단 프로젝트에 맞게 사용하면 될 것 같다.
 
-## redux tookkit(RTK)
+## redux toolkit(RTK)
 
 효율적인 Redux 개발을 위한 공식 도구 모음이자 Redux를 사용하는 공식 표준 방법
 
@@ -79,7 +79,7 @@
     → Redux Toolkit을 사용하면 리듀서, 액션타입, 액션 생성함수, 초기상태를 하나의 함수로 선언 할 수 있다.
 - 비동기 요청을 위한 Redux-thunk, Redux-Saga 등의 서드파티 라이브러리가 필요하다
 - 리덕스로 요청에 관련된 상태를 관리하려면 요청 시작, 요청 성공, 요청 실패에 대한 3가지 액션들을 준비해야 하고 해당 액션들을 처리하는 로직들도 필요하다
-    → react-query 로 API 요청에 대한 처리가 쉽게 가능하다.
+    → RTK-query(redux-toolkit전용) 혹은 react-query 로 API 요청에 대한 처리가 쉽게 가능하다.
 - 새로 고침 시 리덕스의 store의 state가 날아간다
     → redux-persist 를 설치하여 localStorag 또는 session Storage에 저장가능하다
 - Recoil, Zustand, Jotai 중 유일하게 Hook 기반이 아니다
